@@ -1,0 +1,29 @@
+{
+  "name": "hatchplus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon server.js",
+    "start":"node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayiganwa04/hatchplus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayiganwa04/hatchplus/issues"
+  },
+  "homepage": "https://github.com/kayiganwa04/hatchplus#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "sendgrid": "^5.2.3",
+    "sendgrid-web": "^0.0.5"
+  }
+}
