@@ -101,18 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Get Started Button
 --------------------------------------------------------------*/
-/* .get-started-btn {
-  margin-left: 30px;
-  background: #f7a72f;
-  color: #fff;
-  border-radius: 4px;
-  padding: 14px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
-  font-weight: 600;
-  display: inline-block;
-} */
+
 .get-started-btn:hover {
   background: #111111;
   color: #fff;
@@ -249,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgb(240, 176, 0);
+  background: #ffb553;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -517,6 +506,9 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+.clients .container{
+  margin-top: -50px !important;
+}
 .clients .swiper-pagination {
   margin-top: 20px;
   position: relative;
