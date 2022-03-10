@@ -507,10 +507,10 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients .container{
-  margin-top: -50px !important;
+  margin-top: -30px !important;
 }
 .clients .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 30px;
   position: relative;
 }
 .clients .swiper-pagination .swiper-pagination-bullet {
