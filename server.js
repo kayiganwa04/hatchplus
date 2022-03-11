@@ -35,7 +35,6 @@ app.post('/',function(req,res,next){
         .send(msg)
         .then(() => {
           console.log('Email sent successfully');
-          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
         })
         .catch((error) => {
           console.error(error)
